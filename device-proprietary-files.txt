@@ -1,3 +1,6 @@
+# ConsumerIR
+lib/hw/consumerir.msm8974.so:vendor/lib/hw/consumerir.msm8974.so
+
 # FM
 bin/fm_qsoc_patches:vendor/bin/fm_qsoc_patches
 
