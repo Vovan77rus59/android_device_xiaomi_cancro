@@ -128,8 +128,8 @@ void vendor_load_properties()
 
     property_override_dual("ro.product.device", "ro.vendor.product.device", "cancro");
     property_override_dual("ro.product.name", "ro.vendor.product.name", "cancro");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Xiaomi/cancro/cancro:6.0.1/MMB29M/V8.1.6.0.MXDMIDI:user/release-keys");
-    property_override("ro.build.description", "cancro-user 6.0.1 MMB29M V8.1.6.0.MXDMIDI release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Xiaomi/cancro/cancro:6.0.1/MMB29M/V10.1.1.0.MXDCNFII:user/release-keys");
+    property_override("ro.build.description", "cancro-user 6.0.1 MMB29M V10.1.1.0.MXDCNFII release-keys");
 
     switch (raw_id) {
         case 1978:
@@ -141,7 +141,7 @@ void vendor_load_properties()
             break;
         case 1972:
             property_override_dual("ro.product.model", "ro.vendor.product.model", "MI 4LTE");
-            property_set("ro.telephony.default_network", "8");
+            property_set("ro.telephony.default_network", "9");
             property_set("telephony.lteOnGSMDevice", "1");
             break;
         default:
