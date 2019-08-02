@@ -41,6 +41,6 @@ LINEAGE_BUILD_TYPE := WEEKLY
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="cancro-user 6.0.1 MMB29M V10.1.1.0.MXDCNFII release-keys"
+    PRIVATE_BUILD_DESC="cancro-user 6.0.1 MMB29M V10.1.1.0.MXDCNFI release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/cancro/cancro:6.0.1/MMB29M/V10.1.1.0.MXDCNFI:user/release-keys
